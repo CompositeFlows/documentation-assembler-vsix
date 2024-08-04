@@ -1,20 +1,33 @@
 
 # Docs Assembler - build documentation like LEGO
 
-A strategy that mirrors classes and variables in programming, streamlining development and simplfying editing for growing systems. 
+## Using interchangeable blocks and fragments of text
+ * A strategy that mirrors classes and variables in programming. 
+ * It streamlines development.
+ * And simplfies editing in growing systems. 
 
-## Modular text fragments
-Think of documentation like coding, using reusable text fragments similar to classes and variables in programming. This method simplifies updates as systems grow.
+<!-- ![Docs Assembler intro gif](./assets/DocsAssemblerIntro.gif) -->
 
-![Docs Assembler intro gif relative](./assets/DocsAssemblerIntro.gif)
 
 ### Maps
-The main building block is a map. It is a json document akin to a class in software. It holds a section of your documentation broken down into steps. Each step points to its own markdown file. The Docs Assembler reads these maps to create the output you selected.
+The main building block is a map. 
+ * It is a json file - akin to a class in software.
 
---gif map click json, click step, click open md
-![Docs Assembler intro gif absolute](https://muddyspud.github.io/assets/DocsAssemblerIntro-Aug24-2.gif)
+![Docs Assembler json gif](./assets/DocsAssemblerJson.gif)
 
-#### Maps can reference other maps
+
+### Steps
+A map holds a section of your documentation, broken down into steps. 
+ * Each step points to its own markdown file and holds the documentation text. 
+ * Markdown files can be shared between steps. 
+ * Markdown files can be edited with the vscode markdown editor.
+
+The Docs Assembler reads these maps and merges the markdown from each step into the output document. 
+
+<!-- ![Docs Assembler steps gif](https://muddyspud.github.io/assets/DocsAssemblerIntro-Aug24-2.gif) -->
+
+
+### Maps can reference other maps
 When you refer to a map within another map it just appears as a single step. All the complexity of that map is hidden away from you. If it has exits you can build a chain to other maps or steps. Validation prevents circular references.
 
 --gif map click step that points to another map and open it.
