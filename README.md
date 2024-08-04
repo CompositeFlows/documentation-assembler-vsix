@@ -33,24 +33,23 @@ When you refer to a map within another map it just appears as a single step. All
 ![Docs Assembler charts gif](./assets/DocsAssemblerCharts.gif)
 
 
-**Encapsulation** - wrapping a segment of the documentation within a single map. 
-**Inheritance** - where a new map is derived from an existing map (parent).
-**Polymorphism** - grouping maps as members of a common superclass of map (tiger, lion => cats).
-**Abstraction** - hiding complex documentation details within a map, and exposing that map for reference in others as a single step.
-**Composition** - where a map is composed of one or more other maps. 
-
-
 ### Variables
 Variables define a piece of markdown text for reuse within other markdown text. 
 
 ![Docs Assembler variables gif](./assets/DocsAssemblerVariables.gif)
 
 
-#### Variables can reference other variables
+### Variables can reference other variables
 A variable's markdown text can reference other variables. Validation prevents circular references.
 
 ![Docs Assembler variables nested gif](./assets/DocsAssemblerNestedVariables.gif)
 
+
+**Encapsulation** - wrapping a segment of the documentation within a single map. 
+**Inheritance** - where a new map is derived from an existing map (parent).
+**Polymorphism** - grouping maps as members of a common superclass of map (tiger, lion => cats).
+**Abstraction** - hiding complex documentation details within a map, and exposing that map's interface to other maps as a single step.
+**Composition** - where a map is composed of one or more other maps. 
 
 ### Compiling
 On publish the Docs Assembler will read the selected maps, assemble all their referenced maps, markdown files, and expand all the variables, validate it all and assemble it into markdown or HTML files in your repo, or as individuals steps in a database like our system we are ported it from.
