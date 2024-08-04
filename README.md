@@ -1,10 +1,12 @@
 
-# Docs Assembler - documentation as building blocks
+# Docs Assembler - build documentation like LEGO
+
+A strategy that mirrors classes and variables in programming, streamlining development and simplfying editing for growing systems. 
 
 ## Modular text fragments
 Think of documentation like coding, using reusable text fragments similar to classes and variables in programming. This method simplifies updates as systems grow.
 
-![Docs Assembler intro gif relative](./assets/DocsAssemblerIntro-Aug24-2.gif)
+![Docs Assembler intro gif relative](./assets/DocsAssemblerIntro.gif)
 
 ### Maps
 The main building block is a map. It is a json document akin to a class in software. It holds a section of your documentation broken down into steps. Each step points to its own markdown file. The Docs Assembler reads these maps to create the output you selected.
