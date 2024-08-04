@@ -1,4 +1,3 @@
-Docs Assembler: Approach documentation like building wih LEGO, using interchangeable blocks and fragments of text. This strategy mirrors programming classes and variables.
 
 # Docs Assembler - documentation as building blocks
 
