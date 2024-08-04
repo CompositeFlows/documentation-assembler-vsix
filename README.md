@@ -24,13 +24,14 @@ A map holds a section of your documentation, broken down into steps.
 
 The Docs Assembler reads these maps and merges the markdown from each step into the output document. 
 
-<!-- ![Docs Assembler steps gif](https://muddyspud.github.io/assets/DocsAssemblerIntro-Aug24-2.gif) -->
+![Docs Assembler steps gif](./assets/DocsAssemblerSteps.gif)
 
 
 ### Maps can reference other maps
 When you refer to a map within another map it just appears as a single step. All the complexity of that map is hidden away from you. If it has exits you can build a chain to other maps or steps. Validation prevents circular references.
 
---gif map click step that points to another map and open it.
+![Docs Assembler charts gif](./assets/DocsAssemblerCharts.gif)
+
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
 **Inheritance** - where a new map is derived from an existing map (parent).
@@ -42,20 +43,26 @@ When you refer to a map within another map it just appears as a single step. All
 ### Variables
 Variables define a piece of markdown text for reuse within other markdown text. 
 
---gif show variable use next to definition.
+![Docs Assembler variables gif](./assets/DocsAssemblerVariables.gif)
+
 
 #### Variables can reference other variables
 A variable's markdown text can reference other variables. Validation prevents circular references.
 
---gif show variable use next to definition with nested variables.
+![Docs Assembler variables nested gif](./assets/DocsAssemblerNestedVariables.gif)
 
 
 ### Compiling
 On publish the Docs Assembler will read the selected maps, assemble all their referenced maps, markdown files, and expand all the variables, validate it all and assemble it into markdown or HTML files in your repo, or as individuals steps in a database like our system we are ported it from.
 
+![Docs Assembler compiler gif](./assets/DocsAssemblerCompiler.gif)
+
 
 ### Built for complexity
 At their simplest a map has single step with a markdown file. Or a single pathway of steps, like a book or a manual. At its most complicated it is a decision tree of scores of steps, many pointing to other maps, which in turn point to other maps. The expanded result could be enormous and impossible to build without being able to break it down into manageable, discrete, reusable, sections, just like we do in code with classes.
+
+![Docs Assembler compiler gif](./assets/DocsAssemblerNetoftrees.gif)
+
 
 ##### Feedback:
 
