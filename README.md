@@ -88,6 +88,7 @@ The concept was driven by transformational conversations with a robotics firm.
 If you have any questions or feedback email us at team@netoftrees.com 
 
 
+## Object oriented maps:
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
 
