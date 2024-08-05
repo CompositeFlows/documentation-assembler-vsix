@@ -39,7 +39,7 @@
 ### Variables
  * **Variables** define a piece of **markdown text** for reuse within other **markdown text**. 
  * It could be a link, a table or page of text.
- * Relative links **variables** are validated and adjusted to the ultimate parent's location.
+ * **Variables** that are relative links are validated and adjusted to the top-level parent map's directory.
 
 ![Docs Assembler variables gif](./assets/DocsAssemblerVariables.gif)
 
@@ -51,34 +51,52 @@
 ![Docs Assembler variables nested gif](./assets/DocsAssemblerNestedVariables.gif)
 
 
-**Encapsulation** - wrapping a segment of the documentation within a single map. 
-**Inheritance** - where a new map is derived from an existing map (parent).
-**Polymorphism** - grouping maps as members of a common superclass of map (tiger, lion => cats).
-**Abstraction** - hiding complex documentation details within a map, and exposing that map's interface to other maps as a single step.
-**Composition** - where a map is composed of one or more other maps. 
-
 ### Compiling to docs
-On publish the Docs Assembler will read the selected maps, assemble all their referenced maps recursively, markdown files, and expand all the variables recursively, validate it all, and compile it into markdown or HTML files into the publish folder in your repo. 
+On publish the Docs Assembler will read the selected maps, recursively assemble all their referenced maps, markdown files, and recursively expand all the variables; validate it all, and compile it into markdown or HTML files into the publish folder in your repo. 
 
-You can then compare the published files with the existing ones using the comparer. And if satisfactory click-move the published files to the docs folder which could be configured for GitHub Pages.
+![Docs Assembler publish gif](./assets/DocsAssemblerPublish.gif)
 
-![Docs Assembler publish gif](./assets/DocsAssemblerCompiler.gif)
+
+### Comparing published to live
+You can then compare the published files with the existing ones using the comparer.
+
+![Docs Assembler compare gif](./assets/DocsAssemblerCompare.gif)
+
+
+### Replacing live with published
+ And if satisfactory click-move the published files to the docs folder which could be configured for GitHub Pages.
+
+![Docs Assembler live gif](./assets/DocsAssemblerLive.gif)
 
 
 ### Compiling to a database
-
-### Built for complexity
-At their simplest a map has single step with a markdown file. Or a single pathway of steps, like a book or a manual. At its most complicated it is a decision tree of scores of steps, many pointing to other maps, which in turn point to other maps. The expanded result could be enormous and impossible to build without being able to break it down into manageable, discrete, reusable, sections, just like we do in code with classes.
-
-![Docs Assembler compare gif](./assets/DocsAssemblerNetoftrees.gif)
-
-
-##### Feedback:
-
 This is an experimental port from a c# server/database application to a GitHub repo/extension based on json and markdown files.
-This last release focused on markdown and variable files. 
-The upcoming release includes options, ancillaries and referencing of maps.
-The concept was driven by transformational conversations with a robotics firm, about the difficulties they face with documentation and the solutions they hope for.
+Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced of maps, to Docker database + SPA viewer.
+The concept was driven by transformational conversations with a robotics firm.
 
-If you have any questions or feedback that could help this project email us at team@netoftrees.com 
+![Docs Assembler compare gif](./assets/netoftreesSPA.gif)
+
+
+### Built to handle complexity and to scale
+ * At its simplest a map has single step with a markdown file. 
+ * Or a map could be a single pathway of steps, which is a book or a manual. 
+ * At its most complicated, though, it is a decision tree of steps, many pointing to other maps, which in turn point to other maps etc. The expanded result could be enormous and impossible to build without being able to break it down into manageable, discrete, reusable, sections. Just like we do in code with classes.
+
+
+### Feedback:
+
+If you have any questions or feedback email us at team@netoftrees.com 
+
+
+
+**Encapsulation** - wrapping a segment of the documentation within a single map. 
+
+**Inheritance** - where a new map is derived from an existing map (parent).
+
+**Polymorphism** - grouping maps as members of a common superclass of map (tiger, lion => cats).
+
+**Abstraction** - hiding complex documentation details within a map, and exposing that map's interface to other maps as a single step.
+
+**Composition** - where a map is composed of one or more other maps. 
+
 
