@@ -5,9 +5,8 @@
  * A strategy that mirrors **classes** and **variables** in programming. 
  * It streamlines development.
  * And simplifies editing in growing systems. 
-
-<!-- ![Docs Assembler intro gif](./assets/DocsAssemblerIntro.gif) -->
-
+  
+  
 
 ### Maps
  * The main *building-block* is a **map**. 
@@ -15,7 +14,8 @@
  * And it is akin to a **class** in software.
 
 ![Docs Assembler json gif](./assets/DocsAssemblerJson.gif)
-
+  
+  
 
 ### Steps
  * A **map** holds a section of documentation broken down into **steps**. 
@@ -25,7 +25,8 @@
  * The Docs Assembler reads these **maps** and merges the **markdown** from each **step** into the output document. 
 
 ![Docs Assembler steps gif](./assets/DocsAssemblerSteps.gif)
-
+  
+  
 
 ### Maps can reference other maps
  * When you refer to a **map** within another **map** it just appears as a single **step**. 
@@ -34,7 +35,8 @@
  * Validation prevents circular references.
 
 ![Docs Assembler charts gif](./assets/DocsAssemblerCharts.gif)
-
+  
+  
 
 ### Variables
  * **Variables** define a piece of **markdown text** for reuse within other **markdown text**. 
@@ -42,59 +44,66 @@
  * **Variables** that are relative links are validated and adjusted to the top-level parent map's directory.
 
 ![Docs Assembler variables gif](./assets/DocsAssemblerVariables.gif)
-
+  
+  
 
 ### Variables can reference other variables
  * A **variable's** markdown text can reference other **variables**. 
  * Validation prevents circular references.
 
 ![Docs Assembler variables nested gif](./assets/DocsAssemblerNestedVariables.gif)
-
+  
+  
 
 ### Compile to docs
 On publish the Docs Assembler will read the selected maps, recursively validate and assemble all their referenced maps, markdown files, expand all the variables, copy over referenced assets, and compile it into markdown or HTML files into the publish folder in your repo. 
 
 ![Docs Assembler publish gif](./assets/DocsAssemblerPublish.gif)
-
+  
+  
 
 ### Compare published to live
 Then compare the published files with the existing ones using the comparer.
 
 ![Docs Assembler compare gif](./assets/DocsAssemblerCompare.gif)
-
+  
+  
 
 ### Move published to live
  And if satisfactory click-move the published files to the docs folder (for GitHub Pages repos).
 
 ![Docs Assembler live gif](./assets/DocsAssemblerLive.gif)
+  
+  
 
-
-### Compile to a database
-Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced maps, Docker database + SPA viewer.
-
-
-### Built to handle complexity and to scale
+### Built to handle both complexity and scale
  * At its simplest a map has single step with a markdown file. 
  * Or a map could be a single pathway of steps, which is a book or a manual. 
  * At its most complicated, though, it is a decision tree of steps, many pointing to other maps, which in turn point to other maps etc. The expanded result could be enormous, and impossible to build without being able to break it down into manageable, discrete, reusable, sections. Just like we do in code with classes.
-
+  
+  
 
 ### Feedback:
-This is an experimental port from a c# server/database application to a GitHub repo/extension based on json and markdown files.
+This is an experimental port from a c# server/database application to a GitHub repo/extension with json and markdown files.
+Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced maps, Docker database + SPA viewer.
 The concept was driven by transformational conversations with a robotics firm.
 
 If you have any questions or feedback email us at team@netoftrees.com 
+  
+  
+
+### Database version: published output of a map with ancillaries:
+
+![netoftrees C# server/database applications gif](./assets/netoftreesCsharp.gif)
+  
+  
 
 
-#### Scrolling through a medium sized file from the C# application:
+### Database version: contributing maps to the published output shown above:
 
-![netoftrees C# server/database applications gif](./assets/NetoftreesCsharp.gif)
-
-
-
-#### The maps making up the file shown above:
-
-![netoftrees C# server/database applications gif](./assets/NetoftreesCsharp.gif)
+![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
+  
+  
 
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
