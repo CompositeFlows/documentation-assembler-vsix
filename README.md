@@ -70,11 +70,9 @@ You can then compare the published files with the existing ones using the compar
 
 
 ### Compiling to a database
-This is an experimental port from a c# server/database application to a GitHub repo/extension based on json and markdown files.
 Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced of maps, to Docker database + SPA viewer.
-The concept was driven by transformational conversations with a robotics firm.
 
-![Docs Assembler compare gif](./assets/netoftreesSPA.gif)
+![Docs Assembler compare gif](./assets/DocsAssemblerNetoftrees.gif)
 
 
 ### Built to handle complexity and to scale
@@ -84,6 +82,8 @@ The concept was driven by transformational conversations with a robotics firm.
 
 
 ### Feedback:
+This is an experimental port from a c# server/database application to a GitHub repo/extension based on json and markdown files.
+The concept was driven by transformational conversations with a robotics firm.
 
 If you have any questions or feedback email us at team@netoftrees.com 
 
