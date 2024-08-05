@@ -51,25 +51,25 @@
 ![Docs Assembler variables nested gif](./assets/DocsAssemblerNestedVariables.gif)
 
 
-### Compiling to docs
+### Compile to docs
 On publish the Docs Assembler will read the selected maps, recursively validate and assemble all their referenced maps, markdown files, expand all the variables, copy over referenced assets, and compile it into markdown or HTML files into the publish folder in your repo. 
 
 ![Docs Assembler publish gif](./assets/DocsAssemblerPublish.gif)
 
 
-### Comparing published to live
-You can then compare the published files with the existing ones using the comparer.
+### Compare published to live
+Then compare the published files with the existing ones using the comparer.
 
 ![Docs Assembler compare gif](./assets/DocsAssemblerCompare.gif)
 
 
-### Replacing live with published
- And if satisfactory click-move the published files to the docs folder which could be configured for GitHub Pages.
+### Move published to live
+ And if satisfactory click-move the published files to the docs folder (for GitHub Pages repos).
 
 ![Docs Assembler live gif](./assets/DocsAssemblerLive.gif)
 
 
-### Compiling to a database
+### Compile to a database
 Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced maps, Docker database + SPA viewer.
 
 
@@ -86,7 +86,15 @@ The concept was driven by transformational conversations with a robotics firm.
 If you have any questions or feedback email us at team@netoftrees.com 
 
 
-![Docs Assembler compare gif](./assets/NetoftreesCsharp.gif)
+#### Scrolling through a medium sized file from the C# application:
+
+![netoftrees C# server/database applications gif](./assets/NetoftreesCsharp.gif)
+
+
+
+#### The maps making up the file shown above:
+
+![netoftrees C# server/database applications gif](./assets/NetoftreesCsharp.gif)
 
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
@@ -98,5 +106,4 @@ If you have any questions or feedback email us at team@netoftrees.com
 **Abstraction** - hiding complex documentation details within a map, and exposing that map's interface to other maps as a single step.
 
 **Composition** - where a map is composed of one or more other maps. 
-
 
