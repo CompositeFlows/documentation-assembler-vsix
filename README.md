@@ -70,7 +70,7 @@ You can then compare the published files with the existing ones using the compar
 
 
 ### Compiling to a database
-Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced of maps, to Docker database + SPA viewer.
+Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced of maps, Docker database + SPA viewer.
 
 ![Docs Assembler compare gif](./assets/DocsAssemblerNetoftrees.gif)
 
@@ -88,7 +88,6 @@ The concept was driven by transformational conversations with a robotics firm.
 If you have any questions or feedback email us at team@netoftrees.com 
 
 
-## Object oriented maps:
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
 
