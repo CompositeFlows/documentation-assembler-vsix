@@ -52,7 +52,7 @@
 
 
 ### Compiling to docs
-On publish the Docs Assembler will read the selected maps, recursively assemble all their referenced maps, markdown files, and recursively expand all the variables; validate it all, and compile it into markdown or HTML files into the publish folder in your repo. 
+On publish the Docs Assembler will read the selected maps, recursively validate and assemble all their referenced maps, markdown files, expand all the variables, copy over referenced assets, and compile it into markdown or HTML files into the publish folder in your repo. 
 
 ![Docs Assembler publish gif](./assets/DocsAssemblerPublish.gif)
 
@@ -70,15 +70,13 @@ You can then compare the published files with the existing ones using the compar
 
 
 ### Compiling to a database
-Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced of maps, Docker database + SPA viewer.
-
-![Docs Assembler compare gif](./assets/DocsAssemblerNetoftrees.gif)
+Upcoming releases will include a light theme, publishing support for options, ancillaries, referenced maps, Docker database + SPA viewer.
 
 
 ### Built to handle complexity and to scale
  * At its simplest a map has single step with a markdown file. 
  * Or a map could be a single pathway of steps, which is a book or a manual. 
- * At its most complicated, though, it is a decision tree of steps, many pointing to other maps, which in turn point to other maps etc. The expanded result could be enormous and impossible to build without being able to break it down into manageable, discrete, reusable, sections. Just like we do in code with classes.
+ * At its most complicated, though, it is a decision tree of steps, many pointing to other maps, which in turn point to other maps etc. The expanded result could be enormous, and impossible to build without being able to break it down into manageable, discrete, reusable, sections. Just like we do in code with classes.
 
 
 ### Feedback:
@@ -87,6 +85,8 @@ The concept was driven by transformational conversations with a robotics firm.
 
 If you have any questions or feedback email us at team@netoftrees.com 
 
+
+![Docs Assembler compare gif](./assets/NetoftreesCsharp.gif)
 
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
