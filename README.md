@@ -81,6 +81,17 @@ Then compare the published files with the existing ones using the comparer.
  * Or a map could be a single pathway of steps, which is a book or a manual. 
  * At its most complicated, though, it is a decision tree of steps, many pointing to other maps, which in turn point to other maps etc. The expanded result could be enormous, and impossible to build without being able to break it down into manageable, discrete, reusable, sections. Just like we do in code with classes.
   
+
+##### Database version: published output of a map with ancillaries:
+
+![netoftrees C# server/database applications gif](./assets/netoftreesCsharp.gif)
+  
+  
+
+
+##### Database version: contributing maps to the published output shown above:
+
+![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
   
 
 ### Feedback:
@@ -90,21 +101,9 @@ The concept was driven by transformational conversations with a robotics firm.
 
 If you have any questions or feedback email us at team@netoftrees.com 
   
-  
-
-### Database version: published output of a map with ancillaries:
-
-![netoftrees C# server/database applications gif](./assets/netoftreesCsharp.gif)
-  
-  
 
 
-### Database version: contributing maps to the published output shown above:
-
-![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
-  
-  
-
+### Notes
 
 **Encapsulation** - wrapping a segment of the documentation within a single map. 
 
