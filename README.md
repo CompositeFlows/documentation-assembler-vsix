@@ -1,5 +1,5 @@
 
-# Docs Assembler - build documentation like Lego
+# Docs Assembler - build complex documentation like Lego
 
 ### Using interchangeable *blocks* and *fragments* of text
 - A strategy that mirrors **classes** and **variables** in programming. 
