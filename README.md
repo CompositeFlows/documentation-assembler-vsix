@@ -2,12 +2,11 @@
 # Docs Assembler - build documentation like Lego
 
 ### Using interchangeable *blocks* and *fragments* of text
-- A strategy that mirrors **classes** and **variables** in programming. 
+- A strategy that mirrors **classes** and **variables** in programming - encapsulation, re-use etc. 
 - Streamlines development.
 - Simplifies editing for complex or growing systems.
-- Like classes blocks can contain other blocks, similarly fragments of text can contain other fragments. 
   
-  
+
 
 This is an experimental port from a c# server/database application - to a GitHub repo/extension. The concept was driven by transformational conversations with a robotics firm.    
 Any questions or feedback email us: team@netoftrees.com 
