@@ -101,12 +101,12 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 
 ### Upcoming
 - Port from database version
-    - Projects
-    - Publish for ancillaries and referenced maps
-    - Search
-    - Shape tab
-    - Spread tab
-- - Docker database + SPA viewer
+    - projects
+    - publish for ancillaries and referenced maps
+    - search
+    - shape tab
+    - spread tab
+- Docker database + SPA viewer
 - Example repository
 - Help files
 - Light theme
