@@ -1,10 +1,11 @@
 
-# Docs Assembler - build complex documentation like Lego
+# Docs Assembler - build documentation like Lego
 
 ### Using interchangeable *blocks* and *fragments* of text
 - A strategy that mirrors **classes** and **variables** in programming. 
 - Streamlines development.
-- Simplifies editing for growing systems.
+- Simplifies editing for complex or growing systems.
+- Like classes blocks can contain other blocks, similarly fragments of text can contain other fragments. 
   
   
 
@@ -23,8 +24,8 @@ Any questions or feedback email us: team@netoftrees.com
   
 
 ### Steps
-- A **map** contains sections of documentation divided into **steps**.
-- Each **step** links to its own **markdown file** containing the step's documentation text.
+- A **map** contains a section of documentation divided into **steps**.
+- Each **step** links to its own **markdown file** containing the step's documentation text, or to another map.
 - **Markdown files** can be shared among **steps**.
 - **Markdown files** are editable with the VSCode built-in markdown editor.
 - The Docs Assembler reads these **maps** and merges the **markdown** from each **step** into the output document.
@@ -61,7 +62,7 @@ Any questions or feedback email us: team@netoftrees.com
   
 
 ### Compile to docs
-On publish, the Docs Assembler reads your selected maps - recursively validates and assembles all their referenced maps, markdown files, expands all their variables, copies over referenced assets, and compiles them into markdown or HTML files into the publish folder in your repo. 
+On publish, the Docs Assembler reads the maps selected for publish - recursively validates and assembles all their referenced maps, markdown files, expands all their variables, copies over referenced assets, and compiles them into markdown or HTML files into the publish folder in your repo. 
 
 ![Docs Assembler publish gif](./assets/DocsAssemblerPublish.gif)
   
