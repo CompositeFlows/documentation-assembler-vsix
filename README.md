@@ -8,7 +8,8 @@
   
 
 
-This is an experimental port from a c# server/database application - to a GitHub repo/extension. The concept was driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).    
+This is an experimental port from a c# server/database application - to a GitHub repo/extension. The concept was driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).   
+ 
 Any questions or feedback email us: team@netoftrees.com 
     
 
