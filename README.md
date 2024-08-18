@@ -115,7 +115,6 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 
   
 
-
 ### Notes
 
 - **Encapsulation**: Wrapping a segment of the documentation within a single map.
@@ -124,3 +123,10 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 - **Abstraction**: Hiding complex documentation details within a map and exposing that map's interface to other maps as a single step.
 - **Composition**: Composing a map of one or more other maps.
 
+
+
+
+### Releases
+- 0.2.0
+    - Map folders
+    - Intellisense and TextMate grammars for steps and variables
