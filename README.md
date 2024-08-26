@@ -127,6 +127,6 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 
 
 ### Releases
-- 0.2.6
+- 0.2.7
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
