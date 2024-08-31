@@ -8,8 +8,8 @@
   
 
 
-This is an experimental port from a c# server/database application - to a GitHub repo/extension. The concept was driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).   
- 
+This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, that can be compiled up into manuals, Q&A, etc. 
+
 Any questions or feedback email us: team@netoftrees.com 
     
 
@@ -127,6 +127,6 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 
 
 ### Releases
-- 0.2.10
+- 0.2.11
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
