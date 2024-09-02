@@ -8,7 +8,7 @@
   
 
 
-This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, that can be compiled up into manuals, Q&A, etc. 
+This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, and compiled into manuals, Q&A, client specific guides etc. 
 
 Any questions or feedback email us: team@netoftrees.com 
     
