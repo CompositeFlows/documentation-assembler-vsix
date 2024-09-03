@@ -1,10 +1,9 @@
 
 # Docs Assembler - build documentation like Lego
 
-Reuse of interchangeable **blocks** and **fragments** of text
+- Reuse of interchangeable **blocks** and **fragments** of text
 - A strategy that mirrors **classes** and **variables** in programming
-- streamlines development.
-- simplifies editing on growing or complex systems.
+- streamlines development and simplifies editing on growing or complex systems.
   
 
 
@@ -126,6 +125,6 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.16
+- 0.2.17
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
