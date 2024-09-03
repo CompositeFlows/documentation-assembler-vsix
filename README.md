@@ -2,7 +2,7 @@
 # Docs Assembler - build documentation like Lego
 
 ### Using interchangeable *blocks* and *fragments* of text
-- A strategy that mirrors **classes** and **variables** in programming - encapsulation, re-use etc. 
+- A strategy that mirrors **classes** and **variables** in programming - re-use, [encapsulation etc](#notes). 
 - Streamlines development.
 - Simplifies editing for complex or growing systems.
   
@@ -127,6 +127,6 @@ If satisfactory click-move the published files to the docs folder (for GitHub Pa
 
 
 ### Releases
-- 0.2.11
+- 0.2.14
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
