@@ -2,7 +2,7 @@
 # Docs Assembler - build documentation like Lego
 
 - Reuse of interchangeable **blocks** and **fragments** of text
-- A strategy that mirrors **classes** and **variables** in programming
+- A [strategy](#notes) that mirrors **classes** and **variables** in programming
 - Streamlines development and simplifies editing on growing or complex systems.
   
 
@@ -17,7 +17,7 @@ Any questions or feedback email us: team@netoftrees.com
 - The main building block is a **map**.
 - It is a **json** file with a **.tsmap** extension.
 - Functions similarly to a **class** in software.
-- [Built for scale](#built-to-handle-both-complexity-and-scale)
+- [Maps are built to scale](#built-to-handle-both-complexity-and-scale)
 
 ![Docs Assembler json gif](./assets/DocsAssemblerJson.gif)
   
@@ -123,6 +123,6 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.19
+- 0.2.20
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
