@@ -85,24 +85,29 @@ If the changes are as expected, click-move the published files to the **docs** f
 - At its most complicated, a **map** is a **decision tree** of **steps**, many pointing to other **maps**, which in turn point to other **maps** etc. The expanded result could be enormous, and impossible to buildor maintain without breaking it down into manageable, discrete, reusable, units. Just like we do in code with **classes**.
   
 
-### Example published output
-- This shows the c# server/database application - steps are stored in a database.
-    - Wth all ancillaries expanded. 
-    - When all ancillaries are collapsed the guide has just the information needed to for an expert to complete the task. 
-    - If a user expands an ancillary, they will insert more steps on a topic. 
-    - Ancillaries can be nested, so a user can drill down.
-    - With all ancillaries expanded, all the steps for completing a task as a complete novice are laid out.
-- Reusing maps makes it straight forward to build and maintain guides where a user won't need to browse away for help that matches their skill set.
+## Example of published output
 
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharp.gif)
+
+
+#### Image above
+- This shows the c# server/database application, where steps are stored in a database.
+    - It has all the ancillaries expanded. 
+    - When all ancillaries are collapsed the guide shows enough information for an expert to complete the task. 
+    - If a user expands an ancillary, they insert more steps on a topic. 
+    - Ancillaries can be nested - so users can drill down.
+    - With all possible ancillaries expanded, all the steps for completing a task, as a novice, are laid out.
+- Reusing maps makes it straight forward to build and maintain guides that a user can tailor to their skill set.
+
   
   
 
 
-### Example published output - referenced maps
-- The example above - showing all its referenced maps, including nested ones
-- Most will be reused in other guides.
+#### Image below
+- This shows the editor for the c# server/database application.
+    - With referenced maps, including nested ones, used to build the guide shown above.
+    - Most will be reused in other guides.
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
   
