@@ -113,16 +113,16 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 ### Notes
 
-- **Encapsulation**: Wrapping a segment of the documentation within a single map.
-- **Inheritance**: Deriving a new map from an existing map (parent).
-- **Polymorphism**: Grouping maps as members of a common superclass (e.g., tiger, lion => cats).
-- **Abstraction**: Hiding complex documentation details within a map and exposing that map's interface to other maps as a single step.
-- **Composition**: Composing a map of one or more other maps.
+- ***Encapsulation***: Wrapping a segment of the documentation within a single **map**.
+- ***Inheritance*** Deriving a new **map** from an existing **map** (parent).
+- ***Polymorphism*** Grouping **maps** as members of a common superclass (e.g., tiger, lion => cats).
+- ***Abstraction*** Hiding complex documentation details within a **map** and exposing that **map's interface** to other **maps** as a single **step**.
+- ***Composition*** Composing a **map** of one or more other **maps**.
 
 
 
 
 ### Releases
-- 0.2.20
+- 0.2.21
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
