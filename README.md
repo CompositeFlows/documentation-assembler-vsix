@@ -101,7 +101,6 @@ If the changes are as expected, click-move the published files to the **docs** f
 - Reusing **maps** makes it straight forward to build and maintain **guides** that a user can tailor to their skill set.
 
   
-  
 
 
 #### Image below
@@ -139,6 +138,16 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.24
+- 0.2.25
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
+
+
+
+### Links
+
+[team@netoftrees.com](mailto:team@netoftrees.com)
+
+[www.netoftrees.com](https://www.netoftrees.com/)
+
+[x.com/docsassembler](https://x.com/docsassembler)
