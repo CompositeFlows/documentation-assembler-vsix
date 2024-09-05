@@ -92,13 +92,13 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 #### Image above
-- This shows the c# server/database application, where steps are stored in a database.
-    - It has all the ancillaries expanded. 
-    - When all ancillaries are collapsed the guide shows enough information for an expert to complete the task. 
-    - If a user expands an ancillary, they insert more steps on a topic. 
-    - Ancillaries can be nested - so users can drill down.
-    - With all possible ancillaries expanded, all the steps for completing a task, as a novice, are laid out.
-- Reusing maps makes it straight forward to build and maintain guides that a user can tailor to their skill set.
+- This shows the c# server/database application, where **steps** are stored in a database.
+    - It has all the **ancillaries** expanded. 
+    - When all **ancillaries** are collapsed the **guide** shows enough information for an expert to complete the task. 
+    - If a user expands an **ancillary**, they insert more **steps** on a topic. 
+    - **Ancillaries** can be nested - so users can drill down.
+    - With all possible **ancillaries** expanded, all the **steps** for completing a task, as a novice, are laid out.
+- Reusing **maps** makes it straight forward to build and maintain **guides** that a user can tailor to their skill set.
 
   
   
@@ -106,7 +106,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 #### Image below
 - This shows the editor for the c# server/database application.
-    - With referenced maps, including nested ones, used to build the guide shown above.
+    - With the referenced maps, including nested ones, used to build the guide shown above.
     - Most will be reused in other guides.
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
@@ -139,6 +139,6 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.22
+- 0.2.24
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
