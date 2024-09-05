@@ -1,8 +1,8 @@
 
 # Docs Assembler - build documentation like Lego
 
-- Reuse of interchangeable **blocks** and **fragments** of text
-- A [strategy](#notes) that mirrors **classes** and **variables** in programming
+- Reuse of interchangeable **blocks** and **fragments** of text.
+- A [strategy](#notes) that mirrors **classes** and **variables** in programming.
 - Streamlines development and simplifies editing on growing or complex systems.
   
 
@@ -25,8 +25,8 @@ Any questions or feedback email us: team@netoftrees.com
 
 ### Steps
 - A **map** is a section of documentation divided into **steps**.
-- Each **step** links to a **markdown file**, with the step's documentation text, or to another **map**.
-- A **Markdown file** can be shared by many **steps**.
+- Each **step** links to a **markdown file** with the step's documentation text.
+- **Markdown file** can be shared between multiple **steps**.
 - **Markdown files** are editable with the **Visual Studio Code** markdown editor.
 
 ![Docs Assembler steps gif](./assets/DocsAssemblerSteps.gif)
@@ -35,7 +35,7 @@ Any questions or feedback email us: team@netoftrees.com
 
 ### Maps can reference other maps
 - A **map** referenced within another **map**, appears as a single **step**.
-- If a referenced **map** has **exits**, other **maps** or **steps** chained onto those **exits**.
+- If a referenced **map** has **exits**, other **maps** or **steps** will need chained onto those **exits**.
 - **Validation** prevents circular references.
 
 ![Docs Assembler charts gif](./assets/DocsAssemblerCharts.gif)
@@ -44,7 +44,7 @@ Any questions or feedback email us: team@netoftrees.com
 
 ### Variables
 - **Variables** define reusable **markdown text**.
-- **Variables** that define relative links are adjusted - the links will always be valid for the published document they are used in.
+- **Variables** that define relative links are adjusted to be always be valid for the published document they are used in.
 
 ![Docs Assembler variables gif](./assets/DocsAssemblerVariables.gif)
   
@@ -81,21 +81,32 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 ### Built to handle both complexity and scale
 - At its simplest, a **map** has a single **step** and **markdown file**.
-- A **map** could be one pathway of **steps**, like a book or manual.
-- At its most complicated, it is a **decision tree** of **steps**, many pointing to other **maps**, which in turn point to other **maps** etc. The expanded result could be enormous, and impossible to build without breaking it down into manageable, discrete, reusable, units. Just like we do in code with **classes**.
+- A slightly more complex **map** would be a single pathway of **steps**, like a book or manual.
+- At its most complicated, a **map** is a **decision tree** of **steps**, many pointing to other **maps**, which in turn point to other **maps** etc. The expanded result could be enormous, and impossible to buildor maintain without breaking it down into manageable, discrete, reusable, units. Just like we do in code with **classes**.
   
 
-##### Database version: example published output of a map with ancillaries:
+### Example published output
+- This shows the c# server/database application - steps are stored in a database.
+    - Wth all ancillaries expanded. 
+    - When all ancillaries are collapsed the guide has just the information needed to for an expert to complete the task. 
+    - If a user expands an ancillary, they will insert more steps on a topic. 
+    - Ancillaries can be nested, so a user can drill down.
+    - With all ancillaries expanded, all the steps for completing a task as a complete novice are laid out.
+- Reusing maps makes it straight forward to build and maintain guides where a user won't need to browse away for help that matches their skill set.
+
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharp.gif)
   
   
 
 
-##### Database version: contributing maps to the example published output shown above:
+### Example published output - referenced maps
+- The example above - showing all its referenced maps, including nested ones
+- Most will be reused in other guides.
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
   
+
 
 ### Upcoming
 - Port from database version
@@ -113,16 +124,16 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 ### Notes
 
-- ***Encapsulation***: Wrapping a segment of the documentation within a single **map**.
-- ***Inheritance*** Deriving a new **map** from an existing **map** (parent).
-- ***Polymorphism*** Grouping **maps** as members of a common superclass (e.g., tiger, lion => cats).
-- ***Abstraction*** Hiding complex documentation details within a **map** and exposing that **map's interface** to other **maps** as a single **step**.
-- ***Composition*** Composing a **map** of one or more other **maps**.
+- ***Encapsulation*** - Wrapping a segment of the documentation within a single **map**.
+- ***Inheritance*** - Deriving a new **map** from an existing **map** (parent).
+- ***Polymorphism*** - Grouping **maps** as members of a common superclass (e.g., tiger, lion => cats).
+- ***Abstraction*** - Hiding complex documentation details within a **map** and exposing that **map's interface** to other **maps** as a single **step**.
+- ***Composition*** - Composing a **map** of one or more other **maps**.
 
 
 
 
 ### Releases
-- 0.2.21
+- 0.2.22
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
