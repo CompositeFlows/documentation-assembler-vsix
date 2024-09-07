@@ -138,7 +138,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.25
+- 0.2.26
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
 
