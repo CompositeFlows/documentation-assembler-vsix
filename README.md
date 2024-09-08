@@ -9,7 +9,10 @@
 
 This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, and compiled into manuals, Q&A, client and implementation specific guides etc - all based on a policy of ***edit once to update globally.***
 
-Any questions or feedback email us: team@netoftrees.com 
+
+
+### Questions or feedback?
+team@netoftrees.com 
     
 
 
@@ -138,7 +141,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.27
+- 0.2.28
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
 
