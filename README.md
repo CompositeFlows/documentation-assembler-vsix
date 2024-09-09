@@ -12,7 +12,7 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 ### Questions or feedback?
-team@netoftrees.com 
+[team@netoftrees.com](mailto:team@netoftrees.com)
     
 
 
@@ -141,7 +141,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.28
+- 0.2.30
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
 
