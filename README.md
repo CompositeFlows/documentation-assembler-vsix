@@ -124,7 +124,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - spread
 - Docker database + SPA viewer
 - Example repository
-- Help files
+- Tutorials and help files
 - Light theme
 
   
@@ -141,7 +141,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.35
+- 0.2.36
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
     - Publish listed maps
