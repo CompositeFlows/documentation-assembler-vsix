@@ -7,7 +7,7 @@
   
 
 
-This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, and compiled into manuals, Q&A, client and implementation specific guides etc - all based on a policy of ***edit once to update globally.***
+This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, and compiled into manuals, diagnostic/solution walkthroughs, manufacturer specific guides etc - all based on a policy of ***edit once - update globally*** - like with **classes** and **components** in code.
 
 
 
@@ -141,7 +141,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.36
+- 0.2.37
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
     - Publish listed maps
@@ -155,3 +155,4 @@ If the changes are as expected, click-move the published files to the **docs** f
 [www.netoftrees.com](https://www.netoftrees.com/)
 
 [x.com/docsassembler](https://x.com/docsassembler)
+
