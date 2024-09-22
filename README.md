@@ -139,9 +139,8 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 
-
 ### Releases
-- 0.2.37
+- 0.2.38
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
     - Publish listed maps
@@ -155,4 +154,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 [www.netoftrees.com](https://www.netoftrees.com/)
 
 [x.com/docsassembler](https://x.com/docsassembler)
+
+
+
 
