@@ -10,8 +10,16 @@
 This is an experimental port from a c# server/database application - to a GitHub repo/extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their git repo, and compiled into manuals, diagnostic/solution walkthroughs, manufacturer specific guides etc - all based on a policy of ***edit once - update globally*** - like with **classes** and **components** in code.
 
 
+## Quick walkthrough
+Using a fork of the HAL Robotics documentation repo, initialised to use maps - [HAL.Documentation.maps](https://github.com/CompositeFlows/HAL.Documentation.maps).   
+It serves as a good example for simple use cases - as there are only shared variables and steps, no linked maps. 
+#### BE AWARE: This is not the current version of HAL Robotics documentation - see below
 
-### Questions or feedback?
+[<img src="./assets/Walkthrough-thumbnail.png">](https://vimeo.com/1013352380?share=copy#t=0)
+
+
+
+### Bugs, questions or feedback?
 [team@netoftrees.com](mailto:team@netoftrees.com)
     
 
@@ -20,7 +28,7 @@ This is an experimental port from a c# server/database application - to a GitHub
 - The main building block is a **map**.
 - It is a **json** file with a **.tsmap** extension.
 - Functions similarly to a **class** in software.
-- [Maps are built to scale](#built-to-handle-both-complexity-and-scale)
+- [Maps are built to scale up easily](#built-to-handle-both-complexity-and-scale)
 
 ![Docs Assembler json gif](./assets/DocsAssemblerJson.gif)
   
@@ -140,7 +148,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.40
+- 0.2.41
     - Map folders
     - Intellisense and TextMate grammars for steps and variables
     - Publish listed maps
@@ -149,12 +157,17 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 ### Links
 
-[team@netoftrees.com](mailto:team@netoftrees.com)
-
-[www.netoftrees.com](https://www.netoftrees.com/)
-
-[x.com/docsassembler](https://x.com/docsassembler)
+[team@netoftrees.com](mailto:team@netoftrees.com)  
+[www.netoftrees.com](https://www.netoftrees.com/)  
+[x.com/docsassembler](https://x.com/docsassembler)  
 
 
+### For up to date information on HAL Robotics:
 
+documentation:
+[docs.hal-robotics.com](https://docs.hal-robotics.com/)  
+documentation repo:
+[github.com/HALRobotics/HAL.Documentation](https://github.com/HALRobotics/HAL.Documentation)  
+website:
+[hal-robotics.com](https://hal-robotics.com/)  
 
