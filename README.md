@@ -149,7 +149,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Releases
-- 0.2.42
+- 0.2.43
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
