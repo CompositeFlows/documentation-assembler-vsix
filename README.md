@@ -36,7 +36,7 @@ It serves as a good example for simple use cases - as there are only shared vari
 - Functions similarly to a **class** in software.
 - [Maps are built to scale up easily](#built-to-handle-both-complexity-and-scale)
 
-![Docs Assembler json gif](./assets/DocsAssemblerJson.gif)
+![Docs Assembler json gif](./assets/DocsAssemblerJsonDec24.gif)
   
   
 
@@ -130,7 +130,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.3.42
+- 0.3.43
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
