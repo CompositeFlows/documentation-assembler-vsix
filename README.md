@@ -11,9 +11,10 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 
-### Bugs, questions or feedback?
-If you have encountered a problem email us at  
-[team@netoftrees.com](mailto:team@netoftrees.com) - we would be very interested in your feedback or suggestions.
+### Bugs, questions or suggestions?
+Email us at 
+[team@netoftrees.com](mailto:team@netoftrees.com) - 
+Feedback is as rare, any we get makes our day...
 
 After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
@@ -36,7 +37,15 @@ It serves as a good example for simple use cases - as there are only shared vari
 - Functions similarly to a **class** in software.
 - [Maps are built to scale up easily](#built-to-handle-both-complexity-and-scale)
 
-![Docs Assembler json gif](./assets/DocsAssemblerJsonDec24.gif)
+
+#### Switching between **Map Editor** and **Map Json Editor**:
+
+![Docs Assembler map json editor gif](./assets/DocsAssemblerJsonDec24.gif)
+
+
+#### Switching between **Maps Diff** and **Maps Json Diff**:
+
+![Docs Assembler diff map json gif](./assets/DocsAssemblerDiff.gif)
   
   
 
@@ -130,7 +139,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.3.43
+- 0.3.44
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
