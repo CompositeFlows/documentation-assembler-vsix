@@ -12,8 +12,8 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 ### Bugs, questions or suggestions?
-Your perspective and feedback is the secret ingredient — don’t let this cook without it. 
-[team@netoftrees.com](mailto:team@netoftrees.com) - 
+Your perspective and feedback are the secret ingredients — don’t let us cook without them.  
+[team@netoftrees.com](mailto:team@netoftrees.com) 
 
 After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
@@ -138,7 +138,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.3.45
+- 0.3.46
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
