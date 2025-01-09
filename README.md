@@ -11,9 +11,8 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 
-### Bugs, questions or suggestions?
-Your perspective and feedback are the secret ingredients — don’t let us cook without them.  
-[team@netoftrees.com](mailto:team@netoftrees.com) 
+### Bugs, questions or feedback?
+[team@netoftrees.com](mailto:team@netoftrees.com)
 
 After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
