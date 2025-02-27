@@ -11,10 +11,10 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 
-### Bugs, questions or feedback?
-[team@netoftrees.com](mailto:team@netoftrees.com)
+### Bugs, questions or feedback? - Email us
+[team@netoftrees.com](mailto:team@netoftrees.com) - don't be shy, we won't bite.
 
-After an extension update clear vscode history:  
+### After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
 - Type: _Clear Editor History_
 
@@ -137,18 +137,19 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.3.47
+- 0.4.39
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
     - Moving or copying map folder corrects relative urls
     - Map json editor
     - Diff map json editor
+    - Maps explorer
 
 
 
 ### Next
-- Publish for ancillaries and referenced maps
+- Publish for links (referenced maps) and ancillaries
 
 
 
