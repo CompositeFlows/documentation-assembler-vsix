@@ -12,7 +12,7 @@ This is an experimental port from a c# server/database application - to a GitHub
 
 
 ### Bugs, questions or feedback? - Email us
-[team@netoftrees.com](mailto:team@netoftrees.com) - don't be shy, we won't bite.
+[team@netoftrees.com](mailto:team@netoftrees.com)
 
 ### After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
@@ -137,7 +137,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.4.39
+- 0.4.52
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -145,6 +145,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Map json editor
     - Diff map json editor
     - Maps explorer
+    - Map hyper links
 
 
 
