@@ -19,6 +19,11 @@ This is an experimental port from a c# server/database application - to a GitHub
 - Type: _Clear Editor History_
 
 
+### GitHub Pages Demo 
+
+[demo repo](https://github.com/MuddyTurnip/MuddyTurnip.github.io)  
+[demo website](https://muddyturnip.github.io)
+
 
 ## Quick walkthrough
 Using a fork of the HAL Robotics documentation repo, initialised to use maps - [HAL.Documentation.maps](https://github.com/CompositeFlows/HAL.Documentation.maps).   
@@ -137,7 +142,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.4.54
+- 0.5.37
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -146,6 +151,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Diff map json editor
     - Maps explorer
     - Map hyper links
+    - GitHub Pages integration
 
 
 
