@@ -4,26 +4,32 @@
 - Reuse of interchangeable **blocks** and **fragments** of text.
 - A [strategy](#notes) that mirrors **classes** and **variables** in programming.
 - Streamlines development and simplifies editing on growing or complex systems.
-  
-## Optimised for GitHub Pages
-Publish to Jekyll Markdown for a modular, tailored, scalable help system.
+
 
 
 This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com), so their documentation could be edited as markdown files, stored in their GitHub Pages repo, and compiled into manuals, diagnostic/solution walkthroughs, manufacturer specific guides etc - all based on a policy of ***edit once - update globally*** - like with **classes** and **components** in code.
 
-### GitHub Pages Demo 
 
-Pre-configured GitHub Pages repo with sample maps: `/tsmaps/` and published guides `/docs/`.  
-[demo](https://muddyturnip.github.io)  
-[repo](https://github.com/MuddyTurnip/MuddyTurnip.github.io)  
 
+### GitHub Pages 
+[Modular Documentation Demos](https://muddyturnip.github.io):  
+Publish currently targets GitHub Pages, producing Jekyll Markdown.  
+After a Publish run a Git Commit and Push for GitHub Pages to make changes live.  
+
+[Repo](https://github.com/MuddyTurnip/MuddyTurnip.github.io):  
+The sample maps are located in the `/tsmaps/` folder and published guides in `/docs/`.  
+
+Hosting a website on [GitHub Pages](https://docs.github.com/en/get-started/learning-about-github/githubs-plans) is free for public repos. 
 
 ### Bugs, questions or feedback? - Email us
 [team@netoftrees.com](mailto:team@netoftrees.com)
 
+
+
 ### After an extension update clear vscode history:  
 - Open the Command Palette: _Cmd+Shift+P_  
 - Type: _Clear Editor History_
+
 
 
 ## Quick walkthrough
@@ -45,6 +51,7 @@ It serves as a good example for simple use cases - as there are only shared vari
 #### Switching between **Map Editor** and **Map Json Editor**:
 
 ![Docs Assembler map json editor gif](./assets/DocsAssemblerJsonDec24.gif)
+
 
 
 #### Switching between **Maps Diff** and **Maps Json Diff**:
@@ -143,7 +150,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.5.39
+- 0.5.40
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
