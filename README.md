@@ -1,22 +1,23 @@
-# Docs Assembler - Tame Your Documentation Like Code
+# Docs Assembler - Treat Your Documentation Like Code
 
-**Tired of documentation hell?**
+***Solve documentation hell,***
 
--   **Sprawling, duplicated content** across guides, manuals, and wikis.
--   **The dreaded single-point update:** Fix a typo in one place, forget it exists in ten others.
--   **Brittle, unmanageable docs** that can't handle complex, branching scenarios without becoming a nightmare.
--   **Wasting time** wrestling with static generators instead of building features.
+- **Sprawling, duplicated content** across guides, manuals, and wikis.
+- **Bug-prone updates** Make an edit in one place, miss it in ten others.
+- **Brittle, unmanageable docs** that can't handle complex, branching scenarios without becoming a nightmare.
+- **Wasting time** wrestling with static generators instead of building features.
 
-**What if you could apply the principles of software engineering to your documentation?**
+***by applying the principles of software engineering to your documentation,***
 
 Docs Assembler is a VS Code extension that lets you build documentation systems with **modular, reusable components**. Think of it like **React for tech docs** or **class-based inheritance for your content**.
 
--   **`Variables`**: Define reusable text snippets (e.g., product names, error messages, URLs). Change one, update everywhere.
--   **`Maps` (.tsmap files)**: Self-contained documentation modules that can be nested and composed, just like classes. Encapsulate procedures, tutorials, or decision trees.
--   **`Inheritance & Composition`**: Build complex guides from simple, reusable blocks. A change in a base `map` propagates to all guides that use it.
--   **`Compile to Docs`**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML for your static site (like GitHub Pages).
+- **Maps (.tsmap files)**: Self-contained documentation modules that can be nested and composed, just like classes. Encapsulate procedures, tutorials, or decision trees.
+- **Variables**: Define reusable text snippets (e.g., product names, error messages, URLs). Change one, update everywhere.
+- **Inheritance & Composition**: Build complex guides from simple, reusable blocks. A change in a base **map** propagates to all guides that use it.
+- **Compile to Docs**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML for your static site (like GitHub Pages).
 
-**Stop maintaining documents. Start maintaining a single source of truth.**
+***and maintain a single source of truth for your documentation.***
+
 
 ## Build documentation like Lego
 
@@ -164,7 +165,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.6.103
+- 0.6.104
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
