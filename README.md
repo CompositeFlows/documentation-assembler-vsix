@@ -1,6 +1,7 @@
 # Docs Assembler - Treat Documentation Like Code
 
 This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).
+These early releases lay the groundwork for a stable, production-ready version planned for later this year. Feedback during this phase is invaluable to shaping its future.
 
 ***Solve documentation hell,***
 
@@ -172,7 +173,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.6.106
+- 0.6.111
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
