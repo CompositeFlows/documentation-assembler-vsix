@@ -3,12 +3,14 @@
 This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).
 These early releases lay the groundwork for a stable, production-ready version planned for later this year. Feedback during this phase is invaluable to shaping its future.
 
+**Please Note:** The live demo linked lower down was built with this version of the extension. While it showcases the core concepts, this early release contains known bugs and limitations. We encourage you to experiment but advise caution before using it for critical work.
+
+
 ***Solve documentation hell,***
 
 - **Sprawling, duplicated content** across guides, manuals, and wikis.
 - **Bug-prone updates** make an edit in one place, miss it in ten others.
 - **Brittle, unmanageable docs** that can't handle complex, branching scenarios without becoming a nightmare.
-- **Wasting time** wrestling with static generators instead of building features.
 
 ***by applying the principles of software engineering to your documentation,***
 
@@ -20,6 +22,7 @@ Docs Assembler is a VS Code extension that lets you build documentation systems 
 - **Compile to Docs**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML for your static site (like GitHub Pages).
 
 ***and maintain a single source of truth for your documentation.***
+
 
 ## Designed for Developers, by Developers
 
@@ -33,19 +36,27 @@ The design of Docs Assembler was driven by a fundamental need to have a powerful
 *   **Engineering Rigor:** It brings true software tooling to docs, with **IntelliSense for variables, full validation before publish, and automatic adjustment of relative URLs**.
 
 
-### GitHub Pages 
-[Modular Documentation Demos](https://muddyturnip.github.io):  
-Publish currently targets GitHub Pages, producing Jekyll Markdown.  
-After a Publish run a Git Commit and Push for GitHub Pages to make changes live.  
+## Live Demo
 
-[Repo](https://github.com/MuddyTurnip/MuddyTurnip.github.io):  
-The sample maps are located in the `/tsmaps/` folder and published guides in `/docs/`.  
+- **Live Demo GitHub Pages Site**: [See it in action](https://docsassemblerdemo.netoftrees.com/)  
+    - Publish currently targets GitHub Pages, producing Jekyll Markdown.  
+    - After a Publish run a Git Commit and Push for GitHub Pages to make changes live. 
+    - Publish currently targets GitHub Pages, producing Jekyll Markdown. After a Publish run a Git Commit and Push for GitHub Pages to make changes live.  
 
-Hosting a website on [GitHub Pages](https://docs.github.com/en/get-started/learning-about-github/githubs-plans) is free for public repos. 
+- **GitHub Pages Repository**: [Explore the repo](https://github.com/CompositeFlows/DocsAssemblerDemo/)  
+    - The sample maps are located in the `/tsmaps/` folder and published guides in `/docs/`.  
+    - Instructions on running repo locally with Jekyll coming soon.
+
+- **Frontend Renderer**: [TypeScript Source Code](https://github.com/CompositeFlows/fragment-renderer)  
+    - Client-side application that renders the published content in the live demo.
+
+- **Complete Toolchain Repository**: [Sandbox repo](https://github.com/CompositeFlows/DocsAssemblerDemoSandbox/)
+    - All-in-one repository with docs, FragmentRenderer, and Jekyll setup
+    - Supports full local workflow: assemble docs → publish → Jekyll build → local preview
+    - Everything needed to develop, test, and preview documentation changes locally
 
 
-
-### Bugs, questions or feedback? - Email us
+## Bugs, questions or feedback? - Email us
 [team@netoftrees.com](mailto:team@netoftrees.com)
 
 
@@ -173,7 +184,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.6.111
+- 0.7.97
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -185,15 +196,14 @@ If the changes are as expected, click-move the published files to the **docs** f
     - GitHub Pages integration
     - Publish for referenced and nested maps
     - Publish for ancillaries
-
+    - Update GitHub Pages site with a new demo showing referenced and nested map example using ancillaries
 
 
 ### Next
-- Update GitHub Pages site with a new demo showing referenced and nested map example using ancillaries
+- Video tutorial how to set up and publish to GitHub Pages
 
 
 ### Upcoming
-- Video tutorial how to set up and publish to GitHub Pages
 - Tutorials and help files
 - Port from database version
     - projects
