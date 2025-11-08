@@ -6,13 +6,13 @@ These early releases lay the groundwork for a stable, production-ready version p
 **Please Note:** The live demo linked lower down was built with this version of the extension. While it showcases the core concepts, this early release contains known bugs and limitations. We encourage you to experiment but advise caution before using it for critical work.
 
 
-***Solve documentation hell,***
+### *Solve documentation hell,*
 
 - **Sprawling, duplicated content** across guides, manuals, and wikis.
 - **Bug-prone updates** make an edit in one place, miss it in ten others.
 - **Brittle, unmanageable docs** that can't handle complex, branching scenarios without becoming a nightmare.
 
-***by applying the principles of software engineering to your documentation,***
+### *by applying the principles of software engineering to your documentation,*
 
 Docs Assembler is a VS Code extension that lets you build documentation systems with **modular, reusable components**. Think of it like **classes for your content**.
 
@@ -21,7 +21,7 @@ Docs Assembler is a VS Code extension that lets you build documentation systems 
 - **Inheritance & Composition**: Build complex guides from simple, reusable blocks. A change in a base **map** propagates to all guides that use it.
 - **Compile to Docs**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML for your static site (like GitHub Pages).
 
-***and maintain a single source of truth for your documentation.***
+### *and maintain a single source of truth for your documentation.*
 
 
 ## Designed for Developers, by Developers
@@ -184,7 +184,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.97
+- 0.7.98
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
