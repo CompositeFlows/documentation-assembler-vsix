@@ -1,39 +1,40 @@
 # Docs Assembler - Treat Documentation Like Code
 
-This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).
-These early releases lay the groundwork for a stable, production-ready version planned for later this year. Feedback during this phase is invaluable to shaping its future.
+This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).  
+These early releases lay the groundwork for a stable, production-ready version planned for later this year.
 
-**Please Note:** The live demo linked lower down was built with this version of the extension. While it showcases the core concepts, this early release contains known bugs and limitations. We encourage you to experiment but advise caution before using it for critical work.
+**Please Note:** The live demo was built with this version of the extension. While it showcases the core concepts, this early release contains known bugs and limitations. We encourage you to experiment but advise caution before using it for critical work. 
+[Live Demo](#live-demo)
 
 
 ### *Solve documentation hell,*
 
 - **Sprawling, duplicated content** across guides, manuals, and wikis.
 - **Bug-prone updates** make an edit in one place, miss it in ten others.
-- **Brittle, unmanageable docs** that can't handle complex, branching scenarios without becoming a nightmare.
+- **Brittle, unmanageable docs** that can't handle complex, branching scenarios.
 
-### *by applying the principles of software engineering to your documentation,*
+### *by applying the principles of software engineering to the text,*
 
 Docs Assembler is a VS Code extension that lets you build documentation systems with **modular, reusable components**. Think of it like **classes for your content**.
 
-- **Maps (.tsmap files)**: Self-contained documentation modules that can be nested and composed, just like classes. Encapsulate procedures, tutorials, or decision trees.
-- **Variables**: Define reusable text snippets (e.g., product names, error messages, URLs). Change one, update everywhere.
-- **Inheritance & Composition**: Build complex guides from simple, reusable blocks. A change in a base **map** propagates to all guides that use it.
-- **Compile to Docs**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML for your static site (like GitHub Pages).
+- **Maps (.tsmap files)**: Self-contained documentation modules that can be nested and composed, just like classes. Encapsulate text, or decision trees.
+- **Variables**: Define reusable text snippets. Change one, update everywhere.
+- **Inheritance & Composition**: Build complex guides from simple, reusable blocks. A change in a base propagates to all guides that use it.
+- **Compile to Docs**: Assemble these components on-the-fly into flawless, context-aware Markdown or HTML.
 
-### *and maintain a single source of truth for your documentation.*
+### *and maintain a single source of truth.*
 
 
 ## Designed for Developers, by Developers
 
-The design of Docs Assembler was driven by a fundamental need to have a powerful system that *respects developer workflows and sovereignty*:
+The design of Docs Assembler was driven by a fundamental need from teams like [HAL Robotics](https://hal-robotics.com): to have a powerful system that *respects developer workflows and sovereignty*. This isn't just a platform; it's a philosophy built on core principles that will feel immediately right:
 
-*   **Familiarity & Control:** The entire system is built on the tools you already know and trust. Your documentation lives in **Git repos**, right alongside your code. Content is written in **Markdown files**, editable in any editor. Structure is defined in **JSON files** you can view and edit manually. 
-*   **Absolute Ownership:** You have **physical possession of your documentation**. It's your Markdown and JSON in your repo. You are never locked into a subscription or held ransom by a SaaS platform.
-*   **Zero Lock-In:** This is a critical feature. **There are no consequences if you stop using Docs Assembler.** Since it publishes as standard Markdown, you can uninstall the extension and your documentation is still perfectly usable, editable, and ready for any other static site generator. Your content is always yours.
-*   **Seamless Publishing:** It’s designed to publish directly to **GitHub Pages**, a platform most developers already understand. Even Liquid scripts embedded in your Markdown work as expected.
+*   **Familiarity & Control:** The entire system is built on the tools you already know and trust. Your documentation lives in Git repos, right alongside your code. Content is written in Markdown files, editable in any editor. Structure is defined in JSON files you can view and edit manually.
+*   **Absolute Ownership:** You have physical possession of your documentation. It's your Markdown and JSON in your repo. You are never trapped in a subscription or held ransom by a SaaS platform.
+*   **Zero Lock-In:** This is a critical feature. There are no consequences if you stop using Docs Assembler. Since it publishes to standard Markdown, you can uninstall the extension and your documentation is still perfectly usable, editable, and ready for any other static site generator. Your content is always yours.
+*   **Seamless Publishing:** It’s designed to publish directly to [GitHub Pages](https://docs.github.com/en/pages), a platform developers already understand. Even Liquid scripts embedded in your Markdown work as expected.
 *   **Built to Scale:** Like classes break down massive software systems, Docs Assembler's modules are designed to decompose enormous documentation sets into manageable, distributable units that different teams can own.
-*   **Engineering Rigor:** It brings true software tooling to docs, with **IntelliSense for variables, full validation before publish, and automatic adjustment of relative URLs**.
+*   **Engineering Rigour:** It brings true software tooling to docs, with IntelliSense for variables, full validation before publish, and automatic handling of relative URLs that are defined as variables. This ensures any local files referenced by these URL variables are automatically discovered and copied to the publish folder, preventing broken links and ensuring robustness.
 
 
 ## Live Demo
@@ -41,11 +42,9 @@ The design of Docs Assembler was driven by a fundamental need to have a powerful
 - **Live Demo GitHub Pages Site**: [See it in action](https://docsassemblerdemo.netoftrees.com/)  
     - Publish currently targets GitHub Pages, producing Jekyll Markdown.  
     - After a Publish run a Git Commit and Push for GitHub Pages to make changes live. 
-    - Publish currently targets GitHub Pages, producing Jekyll Markdown. After a Publish run a Git Commit and Push for GitHub Pages to make changes live.  
 
 - **GitHub Pages Repository**: [Explore the repo](https://github.com/CompositeFlows/DocsAssemblerDemo/)  
     - The sample maps are located in the `/tsmaps/` folder and published guides in `/docs/`.  
-    - Instructions on running repo locally with Jekyll coming soon.
 
 - **Frontend Renderer**: [TypeScript Source Code](https://github.com/CompositeFlows/fragment-renderer)  
     - Client-side application that renders the published content in the live demo.
@@ -54,6 +53,7 @@ The design of Docs Assembler was driven by a fundamental need to have a powerful
     - All-in-one repository with docs, FragmentRenderer, and Jekyll setup
     - Supports full local workflow: assemble docs → publish → Jekyll build → local preview
     - Everything needed to develop, test, and preview documentation changes locally
+    - Instructions on running repo locally with Jekyll coming soon.
 
 
 ## Bugs, questions or feedback? - Email us
@@ -184,7 +184,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.98
+- 0.7.101
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
