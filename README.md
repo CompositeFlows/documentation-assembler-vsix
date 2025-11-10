@@ -2,8 +2,9 @@
 
 This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).  
 
-The [Live Demo](https://docsassemblerdemo.netoftrees.com/) was built with this version of the extension. We've released it so you can experiment with the concepts firsthand. Please note this is an early release with known limitations — we advise caution for critical work. There is a production-ready version planned for later this year.
-
+ > **To truly understand how it works, we encourage you to explore the [Live Demo](https://docsassemblerdemo.netoftrees.com/).**  
+ >It was built with this version of the extension, which we've released for hands-on experimentation.  
+ >*Please note: This is an early release with known limitations. We advise caution for critical work until the production-ready version is released later this year.*
 
 ### *Solve documentation hell,*
 
@@ -182,7 +183,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.106
+- 0.7.108
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
