@@ -183,7 +183,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.202
+- 0.7.211
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -230,6 +230,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 [team@netoftrees.com](mailto:team@netoftrees.com)  
 [www.netoftrees.com](https://www.netoftrees.com/)  
 [x.com/docsassembler](https://x.com/docsassembler)  
+
 
 
 ### For up to date information on HAL Robotics:
