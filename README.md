@@ -183,7 +183,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.214
+- 0.7.217
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -199,6 +199,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Next
+- Map - published, modified or never published.
 - Video tutorial how to set up and publish to GitHub Pages
 
 
