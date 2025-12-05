@@ -183,7 +183,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.244
+- 0.7.248
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -205,6 +205,8 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 ### Upcoming
 - Tutorials and help files
+- Move or copy a section of a branch
+- Make section of branch a new map
 - GitLab Pages integration
 - Port from database version
     - projects
