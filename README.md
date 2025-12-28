@@ -184,7 +184,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.323
+- 0.7.325
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -199,7 +199,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Update GitHub Pages site with a new demo showing referenced and nested map example using ancillaries
     - Map and guide stacks - published, modified or never published.
     - Move, clone, copy + paste of map folders adjusts relative urls.
-    - Move, rename of map asst files updates references.
+    - Move, rename of map asset files updates references.
 
 
 ### Next
