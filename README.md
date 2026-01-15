@@ -179,11 +179,11 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Most will be reused in other guides.
 
 ![netoftrees C# server/database applications gif](./assets/netoftreesCsharpMaps.gif)
-  
+
 
 
 ### Released
-- 0.7.364
+- 0.7.368
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
