@@ -183,7 +183,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.375
+- 0.7.377
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -199,6 +199,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Map and guide stacks - published, modified or never published.
     - Move, clone, copy + paste of map folders adjusts relative urls.
     - Move, rename of map asset files updates references and map hyperlinks.
+    - Shortcut keys
 
 
 ### Next
