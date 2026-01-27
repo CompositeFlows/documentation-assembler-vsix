@@ -182,7 +182,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.435
+- 0.7.437
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
@@ -228,6 +228,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 - ***Polymorphism*** - Grouping **maps** as members of a common superclass (e.g., tiger, lion => cats).
 - ***Abstraction*** - Hiding complex documentation details within a **map** and exposing that **map's interface** to other **maps** as a single **step**.
 - ***Composition*** - Composing a **map** of one or more other **maps**.
+
 
 
 
