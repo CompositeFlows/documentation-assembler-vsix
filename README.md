@@ -182,7 +182,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.465
+- 0.7.466
     - Map folders
     - Intellisense, diagnostics and TextMate grammars for steps and variables
     - Publish listed maps
