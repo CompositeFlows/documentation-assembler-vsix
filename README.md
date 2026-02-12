@@ -182,9 +182,9 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.528
+- 0.7.532
     - Map folders
-    - Intellisense, diagnostics and TextMate grammars for steps and variables
+    - Markdown Intellisense, diagnostics and TextMate and semantic grammars for steps and variables
     - Publish listed maps
     - Moving or copying map folder corrects relative urls
     - Map json editor
@@ -201,7 +201,9 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Shortcut keys
 
 
+
 ### Next
+- json step (video step) - json intellisense, diagnostics, textMate and semantic tokens
 - Video tutorial how to set up and publish to GitHub Pages
 - Reference other repos
 
