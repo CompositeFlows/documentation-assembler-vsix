@@ -187,7 +187,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.8.3
+- 0.8.4
     - Map folders
     - Markdown Intellisense, diagnostics and TextMate and semantic grammars for steps and variables
     - Publish listed maps
@@ -203,7 +203,7 @@ If the changes are as expected, click-move the published files to the **docs** f
     - Map and guide stacks - published, modified or never published.
     - Move, clone, copy + paste of map folders adjusts relative urls.
     - Move, rename of map asset files updates references and map hyperlinks.
-    - Shortcut keys
+    - Shortcut keys 
     - json step (video step) - json intellisense, diagnostics, textMate and semantic tokens
 
 
