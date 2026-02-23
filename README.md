@@ -2,6 +2,11 @@
 
 This is an experimental port from a c# server/database application - to a GitHub repo/vscode extension. A concept driven by transformational conversations with a robotics firm - [HAL Robotics](https://hal-robotics.com).  
 
+### We think in webs, but we're forced to write in lines
+
+Human knowledge branches, loops, and layers—a living web of what-ifs and dependencies. Traditional documents force this into linear prose, losing the very structure that makes expertise usable.    
+Docs Assembler bridges that gap. It is a way to give form to the networks in your mind - for others to understand and learn, or extend and refine.
+
  > **To truly understand how it works, we encourage you to explore the [Live Demo](https://docsassemblerdemo.netoftrees.com/).**  
  >It was built with this version of the extension, which we've released for hands-on experimentation.  
  >*Please note: This is an early release with known limitations. We advise caution for critical work until the production-ready version is released later this year.*
@@ -182,7 +187,7 @@ If the changes are as expected, click-move the published files to the **docs** f
 
 
 ### Released
-- 0.7.549
+- 0.8.1
     - Map folders
     - Markdown Intellisense, diagnostics and TextMate and semantic grammars for steps and variables
     - Publish listed maps
